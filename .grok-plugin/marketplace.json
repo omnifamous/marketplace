@@ -1,0 +1,34 @@
+{
+  "name": "omnifamous",
+  "description": "SEO and AI-visibility plugins from OMNIFAMOUS.",
+  "owner": {
+    "name": "OMNIFAMOUS",
+    "url": "https://omnifamous.com"
+  },
+  "plugins": [
+    {
+      "name": "omnifamous-seo",
+      "description": "SEO and AI-visibility data via OMNIFAMOUS's hosted MCP server: keyword metrics, backlinks, traffic estimates, competitor content gaps, technical and robots/sitemap audits, and whether ChatGPT, Claude, Gemini, Perplexity and Google AI Overview mention a brand. Two tools are free with no credential; the rest are metered per call.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./plugins/omnifamous-seo"
+      },
+      "homepage": "https://omnifamous.com/seo-mcp",
+      "version": "1.0.0",
+      "author": {
+        "name": "OMNIFAMOUS",
+        "url": "https://omnifamous.com"
+      },
+      "keywords": [
+        "omnifamous",
+        "omnifamous seo",
+        "omnifamous ai visibility"
+      ],
+      "domains": [
+        "omnifamous.com",
+        "mcp.omnifamous.com"
+      ]
+    }
+  ]
+}
