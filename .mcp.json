@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "omnifamous": {
+      "type": "http",
+      "url": "https://mcp.omnifamous.com/mcp"
+    }
+  }
+}

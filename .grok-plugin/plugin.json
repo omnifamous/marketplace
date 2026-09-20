@@ -1,0 +1,14 @@
+{
+  "name": "omnifamous-seo",
+  "version": "1.0.0",
+  "description": "Live SEO and AI-visibility data for Grok Build: keyword metrics, backlinks, traffic estimates, competitor gaps, technical audits, and whether AI answer engines mention a brand.",
+  "author": {
+    "name": "OMNIFAMOUS",
+    "url": "https://omnifamous.com"
+  },
+  "homepage": "https://omnifamous.com/seo-mcp",
+  "repository": "https://github.com/omnifamous/omnifamous-grok-plugin",
+  "license": "MIT",
+  "keywords": ["omnifamous", "seo", "ai visibility", "geo", "aeo", "keywords", "backlinks", "mcp"],
+  "logo": "assets/logo.png"
+}
