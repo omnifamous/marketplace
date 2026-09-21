@@ -21,7 +21,7 @@ This plugin causes Grok Build to talk to exactly one host:
 
 | Endpoint | Transport | Purpose |
 |---|---|---|
-| `https://mcp.omnifamous.com/mcp` | Streamable HTTP (MCP, protocol 2025-06-18) | Every tool call |
+| `https://api-production-c5b5.up.railway.app/mcp` | Streamable HTTP (MCP, protocol 2025-06-18) | Every tool call |
 
 No other host is contacted, and the plugin itself makes no network calls at
 install time.
@@ -52,13 +52,11 @@ price and the next step.
 | `seo_inspect_url` | Free |
 | `seo_check_robots_sitemap` | Free |
 | `seo_find_broken_links` | Registered |
-| `seo_get_audit` | Registered |
 | `seo_keyword_ideas` | Metered |
 | `seo_traffic_estimate` | Metered |
 | `seo_backlinks` | Metered |
 | `seo_competitor_gap` | Metered |
 | `ai_visibility_check` | Metered |
-| `seo_run_audit` | Metered |
 
 The server is the contract. Call `tools/list` for the live surface and the exact
 argument schemas.
@@ -66,7 +64,7 @@ argument schemas.
 ## Install
 
 Via the xAI plugin marketplace in Grok Build, or point any MCP client at
-`https://mcp.omnifamous.com/mcp` directly.
+`https://api-production-c5b5.up.railway.app/mcp` directly.
 
 ## License
 

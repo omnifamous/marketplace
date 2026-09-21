@@ -2,7 +2,7 @@
   "mcpServers": {
     "omnifamous": {
       "type": "http",
-      "url": "https://mcp.omnifamous.com/mcp"
+      "url": "https://api-production-c5b5.up.railway.app/mcp"
     }
   }
 }

@@ -27,7 +27,7 @@ two skills.
 
 | Ships | What |
 |---|---|
-| MCP server | `https://mcp.omnifamous.com/mcp`, Streamable HTTP |
+| MCP server | `https://api-production-c5b5.up.railway.app/mcp`, Streamable HTTP |
 | Skill `omnifamous-seo` | When and how to use the tools |
 | Skill `ai-visibility-research` | Primary-source research on what AI engines cite |
 

@@ -29,13 +29,11 @@ failure rather than estimating around it.
 | `seo_inspect_url` | Title, meta, headings and indexability for one URL | Free |
 | `seo_check_robots_sitemap` | robots.txt and sitemap state for a site | Free |
 | `seo_find_broken_links` | Broken outbound and internal links on a page | Registered |
-| `seo_get_audit` | Poll a previously started site audit by job id | Registered |
 | `seo_keyword_ideas` | Keyword ideas with volume, difficulty and CPC | Metered |
 | `seo_traffic_estimate` | Estimated organic traffic for a domain | Metered |
 | `seo_backlinks` | Backlinks and referring domains for a target | Metered |
 | `seo_competitor_gap` | Keywords a competitor ranks for and you do not | Metered |
 | `ai_visibility_check` | Whether AI answer engines mention a domain, with citations | Metered |
-| `seo_run_audit` | Start a full technical SEO audit, returns a job id | Metered |
 
 Call `tools/list` for the exact argument schema of each. The server is the
 contract: if this file and the server disagree, the server is right.
@@ -58,5 +56,5 @@ step. Relay that message to the user rather than retrying blindly.
 3. **Cite which tool produced every number** you put in front of the user.
 4. **Report a miss as a miss.** A call that returns nothing is a gap in the
    data, not an invitation to estimate.
-5. **Audits are asynchronous.** `seo_run_audit` returns a job id; poll it with
-   `seo_get_audit` rather than assuming it finished.
+5. **Report a refusal as a refusal.** A tool that needs registration returns a
+   URL with a single-use code in it. Hand that to the user rather than retrying.
